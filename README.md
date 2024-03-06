@@ -1,4 +1,6 @@
 # TT2024
+Họ và tên: Đặng Hồng Thái
+Thực tập: BE
 ###Report tuần 1
 ####1.1 Chương trình java sử dụng OOP và SOLID
 - Mô tả:
