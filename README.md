@@ -3,9 +3,9 @@ Họ và tên: Đặng Hồng Thái
 
 Thực tập: BE
 
-###Report tuần 1
+#Report tuần 1
 
-####1.1 Chương trình java sử dụng OOP và SOLID
+##1.1 Chương trình java sử dụng OOP và SOLID
 
 - Mô tả:
   + chương trình tính lương cho 2 loại nhân viên: Full-time staff và Part-time Staff
@@ -13,8 +13,12 @@ Thực tập: BE
   + Lớp thiết kế: Staff, FullTimeStaff, PartTimeStaff, interface Calculator
   + Áp dụng tính đóng gói, tính trừu tượng, tính kế thừa, tính đa hình trong OOP
   + Áp dụng tính đơn nhiệm, đóng mở của SOLID
-  + Thông tin sau nhập được lưu trong ArrayList và in ra sau khi nhập
+  + Thông tin sau khi nhập được lưu trong ArrayList
+ 
+- Link github: https://github.com/zelinus06/TT2024/tree/Java-OOP
     
-####1.2 Chương trình ghi đọc theo 2 dạng binary và text
+##1.2 Chương trình ghi đọc theo 2 dạng binary và text
 
 - Mô tả: nhập dữ liệu từ bàn phím và ghi đọc theo 2 dạng binary và text
+
+- Link github: https://github.com/zelinus06/TT2024/tree/read-write-prog
