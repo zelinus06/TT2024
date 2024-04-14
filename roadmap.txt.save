@@ -91,7 +91,6 @@ echo "cc" >> test.txt
 #### 6.2 Tìm hiểu về cache
 - Tìm hiểu về redis
 - Xây dựng một service sử dụng cache đo performace bằng stress test
-
 ### 7. Tuần 7-9
 
 #### 7.1 Tìm hiểu các pattarns

@@ -161,7 +161,7 @@
 
   + Logical Replication: PostgreSQL hỗ trợ logical replication, cho phép bạn sao chép và phân phối dữ liệu theo cách linh hoạt và tùy chỉnh.
 
-## MongoDB
+## MongoDB(Document)
 
 MongoDB là một hệ quản trị cơ sở dữ liệu không cấu trúc (NoSQL) phổ biến, được thiết kế để lưu trữ và xử lý dữ liệu dưới dạng tài liệu JSON linh hoạt.
 
@@ -187,7 +187,7 @@ MongoDB là một hệ quản trị cơ sở dữ liệu không cấu trúc (NoS
 
   + Hỗ trợ đa dạng dạng dữ liệu: MongoDB hỗ trợ lưu trữ và truy vấn nhiều loại dữ liệu khác nhau như văn bản, hình ảnh, âm thanh, và video.
 
-## Redis
+## Redis(key-value)
 
 - Redis là một hệ quản trị cơ sở dữ liệu key-value in-memory (dữ liệu được lưu trữ trong bộ nhớ), được sử dụng phổ biến cho việc lưu trữ cache, hàng đợi thông điệp, và các ứng dụng real-time.
  
@@ -217,7 +217,7 @@ MongoDB là một hệ quản trị cơ sở dữ liệu không cấu trúc (NoS
 
  + Counter và Leaderboard: Redis thích hợp cho việc lưu trữ và tính toán counter và leaderboard trong các ứng dụng trò chơi hoặc xã hội.
 
-## Cassandra
+## Cassandra(Column)
 
 - Đặc điểm chính:
 
