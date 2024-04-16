@@ -162,6 +162,15 @@
   + Logical Replication: PostgreSQL hỗ trợ logical replication, cho phép bạn sao chép và phân phối dữ liệu theo cách linh hoạt và tùy chỉnh.
 
 ## MongoDB(Document)
+- Document store được gọi là các cơ sở dữ liệu hướng tài liệu, một thiết kế riêng biệt cho việc lưu trữ tài liệu dạng văn kiện JSON, BSON hoặc XML.
+- Các tài liệu có thể chứa bất kì dữ liệu nào. CSDL dạng này có các cặp khoá – giá trị nhưng cũng có đính kèm các trị số siêu dữ liệu (*metadata) giúp việc truy vấn (*query) dễ dàng hơn.
+- Điểm mạnh:
+ + Có thể tạo ra kiến trúc dữ liệu cho một tài liệu cụ thể mà không ảnh hưởng tài liệu khác
+ + Người dùng không cần quan tâm dạng dữ liệu khi setup
+ + Dễ dàng mở rộng theo chiều ngang, thời gian ghi dữ liệu nhanh
+- Điểm yếu:
+ + Hy sinh yếu tố ACID để đổi lấy sự linh hoạt
+ + Chỉ có thể truy vấn trên từng tài liệu
 
 MongoDB là một hệ quản trị cơ sở dữ liệu không cấu trúc (NoSQL) phổ biến, được thiết kế để lưu trữ và xử lý dữ liệu dưới dạng tài liệu JSON linh hoạt.
 
@@ -189,8 +198,20 @@ MongoDB là một hệ quản trị cơ sở dữ liệu không cấu trúc (NoS
 
 ## Redis(key-value)
 
+- Các HQT CSDL Key-value lưu trữ dữ liệu dưới dạng key (là một chuỗi duy nhất) liên kết với value có thể ở dạng chuỗi văn bản đơn giản hoặc các tập
+
+- CDSL chìa khoá – giá trị là một dạng CSDL phi quan hệ nơi mà mỗi giá trị được gán cho một key (chìa khoá) nhất định.
+
+- Một “key” là một định danh độc nhất được gán cho một giá trị. Keys có thể là bất cứ thứ gì cho phép bởi DBMS. Trong Redis, keys có thể là một hàm nhị phân lên tới 512MB
+
 - Redis là một hệ quản trị cơ sở dữ liệu key-value in-memory (dữ liệu được lưu trữ trong bộ nhớ), được sử dụng phổ biến cho việc lưu trữ cache, hàng đợi thông điệp, và các ứng dụng real-time.
- 
+
+- Điểm mạnh:
+ + Linh hoạt, xử lí nhiều loại dữ liệu một cách nhanh chóng
+ + Mở rộng theo chiều ngang, chi phí thấp
+
+- Điểu yếu:
+ + Tính linh hoạt của CSDL dạng key – value bị đánh đổi bởi tính chính xác
 - Đặc điểm chính:
 
  + In-Memory Data Store: Redis lưu trữ dữ liệu trong bộ nhớ, cho phép truy cập nhanh chóng và hiệu suất cao. Dữ liệu có thể được lưu trữ dưới dạng key-value, hash, list, set, sorted set và các cấu trúc dữ liệu khác.
@@ -218,6 +239,13 @@ MongoDB là một hệ quản trị cơ sở dữ liệu không cấu trúc (NoS
  + Counter và Leaderboard: Redis thích hợp cho việc lưu trữ và tính toán counter và leaderboard trong các ứng dụng trò chơi hoặc xã hội.
 
 ## Cassandra(Column)
+
+- Mô hình column là một dạng lưu CSDL phi quan hệ lưu trữ theo dạng cột. Mô hình này có vài điểm tương đồng với mô hình key – value nhưng cũng có vài tính chất của dạng CSDL quan hệ.
+- Điểm mạnh:
+ + CSDL dạng cột có khả năng nén tốt hơn CSDL dạng dòng. Đồng thời, data set lớn có thể dễ dàng duyệt hơn
+- Điểm yếu:
+ + CSDL dạng cột dễ dàng update theo cụm, bù lại việc upload và update số liệu cá nhân rất khó
+ + Xử lí các giao dịch chậm hơn so với rdbms
 
 - Đặc điểm chính:
 
