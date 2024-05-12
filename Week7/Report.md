@@ -86,7 +86,7 @@ Event Sourcing là một mô hình lưu trữ dữ liệu trong đó toàn bộ 
 - **Khó khăn trong gỡ lỗi:** Đòi hỏi sự hiểu biết sâu về lịch sử các sự kiện để gỡ lỗi và quản lý hệ thống.
 
 
-# Báo Cáo: Tìm Hiểu về ORMs & Transactions trong Cơ Sở Dữ Liệu với Ngôn Ngữ Java
+# ORMs & Transactions
 
 ## Tổng quan
 
@@ -125,7 +125,7 @@ Transaction Management là quá trình quản lý các giao dịch trong cơ s�
 - **Tính Linh Hoạt:** Một số ORM có thể hạn chế tính linh hoạt trong việc tùy chỉnh cách ánh xạ đối tượng vào cơ sở dữ liệu.
 
 
-# Báo Cáo: Tìm Hiểu về Message Queue Kafka
+# Message Queue: Kafka
 
 ## Tổng quát
 
