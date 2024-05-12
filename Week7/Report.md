@@ -231,7 +231,7 @@ Basic Auth là một phương pháp authentication đơn giản, thường đư�
 
 ## Token Auth
 
-Token Auth là một phương pháp authentication phổ biến trong các ứng dụng web và API, tương tự như JWT. Nó hoạt động bằng cách gửi một token được tạo ra từ một quá trình xác thực trước đó từ máy khách đến máy chủ để xác thực người dùng. Dưới đây là một số điểm chính về Token Auth:
+Token Auth là một phương pháp authentication phổ biến trong các ứng dụng web và API, tương tự như JWT. Nó hoạt động bằng cách gửi một token được tạo ra từ một quá trình xác thực trước đó từ máy khách đến máy chủ để xác thực người dùng. Dưới đây là một số điểm chính về Token Auth
 
 - **Phương Pháp Phổ Biến:** Token Auth là một phương pháp phổ biến và linh hoạt cho việc xác thực người dùng trong các ứng dụng web và API.
 - **Tính Bảo Mật:** Token được tạo ra từ quá trình xác thực trước đó, nên có thể được mã hóa và ký để bảo vệ thông tin người dùng.
