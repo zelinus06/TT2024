@@ -164,11 +164,11 @@
 ## MongoDB(Document)
 - Document store được gọi là các cơ sở dữ liệu hướng tài liệu, một thiết kế riêng biệt cho việc lưu trữ tài liệu dạng văn kiện JSON, BSON hoặc XML.
 - Các tài liệu có thể chứa bất kì dữ liệu nào. CSDL dạng này có các cặp khoá – giá trị nhưng cũng có đính kèm các trị số siêu dữ liệu (*metadata) giúp việc truy vấn (*query) dễ dàng hơn.
-- Điểm mạnh:
+### Điểm mạnh:
  + Có thể tạo ra kiến trúc dữ liệu cho một tài liệu cụ thể mà không ảnh hưởng tài liệu khác
  + Người dùng không cần quan tâm dạng dữ liệu khi setup
  + Dễ dàng mở rộng theo chiều ngang, thời gian ghi dữ liệu nhanh
-- Điểm yếu:
+### Điểm yếu:
  + Hy sinh yếu tố ACID để đổi lấy sự linh hoạt
  + Chỉ có thể truy vấn trên từng tài liệu
 
@@ -206,11 +206,11 @@ MongoDB là một hệ quản trị cơ sở dữ liệu không cấu trúc (NoS
 
 - Redis là một hệ quản trị cơ sở dữ liệu key-value in-memory (dữ liệu được lưu trữ trong bộ nhớ), được sử dụng phổ biến cho việc lưu trữ cache, hàng đợi thông điệp, và các ứng dụng real-time.
 
-- Điểm mạnh:
+### Điểm mạnh:
  + Linh hoạt, xử lí nhiều loại dữ liệu một cách nhanh chóng
  + Mở rộng theo chiều ngang, chi phí thấp
 
-- Điểu yếu:
+### Điểu yếu:
  + Tính linh hoạt của CSDL dạng key – value bị đánh đổi bởi tính chính xác
 - Đặc điểm chính:
 
@@ -241,9 +241,9 @@ MongoDB là một hệ quản trị cơ sở dữ liệu không cấu trúc (NoS
 ## Cassandra(Column)
 
 - Mô hình column là một dạng lưu CSDL phi quan hệ lưu trữ theo dạng cột. Mô hình này có vài điểm tương đồng với mô hình key – value nhưng cũng có vài tính chất của dạng CSDL quan hệ.
-- Điểm mạnh:
+### Điểm mạnh:
  + CSDL dạng cột có khả năng nén tốt hơn CSDL dạng dòng. Đồng thời, data set lớn có thể dễ dàng duyệt hơn
-- Điểm yếu:
+### Điểm yếu:
  + CSDL dạng cột dễ dàng update theo cụm, bù lại việc upload và update số liệu cá nhân rất khó
  + Xử lí các giao dịch chậm hơn so với rdbms
 
