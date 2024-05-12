@@ -172,7 +172,7 @@ Apache Kafka là một hệ thống message queue mã nguồn mở được phá
 - **Yêu Cầu Cấu Hình Phức Tạp:** Cấu hình Kafka có thể phức tạp và đòi hỏi sự hiểu biết sâu sắc về cách hoạt động của hệ thống.
 
 
-# Báo Cáo: Tìm Hiểu về Authentication
+# Tìm Hiểu về Authentication
 
 ## Tổng quan
 
