@@ -97,7 +97,6 @@ echo "cc" >> test.txt
 - Domain Driven Design
 - CQRS & Event Sourcing
 
-
 #### 7.2 Tìm hiểu về ORMs & Transactions trong cơ sở dữ liệu
 #### 7.3 Tìm hiểu về message queue
 - Kafka
